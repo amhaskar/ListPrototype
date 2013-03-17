@@ -15,6 +15,7 @@ var app = angular.module('', []).
         .otherwise({ redirectTo: '/' });
     }]);
 
+app.run(function ($route) { });
 
 var BodyController = function($scope) {
     var self = this;
