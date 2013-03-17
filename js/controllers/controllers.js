@@ -12,6 +12,21 @@ angular.module('test', []).
                 templateUrl: 'templates/search.html',
                 controller: BodyController
             })
+        .when('/listings',
+            {
+                templateUrl: 'templates/listings.html',
+                controller: BodyController
+            })
+        .when('/team',
+            {
+                templateUrl: 'templates/team.html',
+                controller: BodyController
+            })
+        .when('/contact',
+            {
+                templateUrl: 'templates/contact.html',
+                controller: BodyController
+            })
         .otherwise({ redirectTo: '/' });
 
         $locationProvider.html5Mode(true);
