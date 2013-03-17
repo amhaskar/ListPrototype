@@ -1,4 +1,4 @@
-angular.module('', []).
+angular.module('test', []).
     config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
         
         $routeProvider
