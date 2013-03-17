@@ -11,17 +11,17 @@
 </head>
 <body>
     <div id="wrap">
-        <header ng-include src="'templates/header.html'"></header>
+        <header class="container" ng-include src="'templates/header.html'"></header>
         <div class="container">
             <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
                    chromium.org/developers/how-tos/chrome-frame-getting-started -->
             <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
-            <nav ng-include src="'templates/main_navigation.html'"></nav>
+            <nav class="" ng-include src="'templates/main_navigation.html'"></nav>
             <div id="main" role="main" ng-view></div>
             <div id="push"></div>
         </div>
     </div>
-    <footer ng-include src="'templates/footer.html'"></footer>
+    <footer class="container" ng-include src="'templates/footer.html'"></footer>
     <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
