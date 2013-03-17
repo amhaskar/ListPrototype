@@ -4,12 +4,12 @@ var app = angular.module('', []).
         $routeProvider
         .when('/',
             {
-                templateUrl: '/templates/default.html',
+                templateUrl: 'templates/default.html',
                 controller: BodyController
             })
         .when('/search',
             {
-                templateUrl: '/templates/search.html',
+                templateUrl: 'templates/search.html',
                 controller: BodyController
             })
         .otherwise({ redirectTo: '/' });
