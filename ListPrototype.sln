@@ -1,8 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ListPrototype", ".", "{85BF3349-1795-45E7-B06A-1669CA208BB8}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ListPrototype", "http://localhost:62094", "{85BF3349-1795-45E7-B06A-1669CA208BB8}"
 	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv2.0"
 		Debug.AspNetCompiler.VirtualPath = "/ListPrototype"
 		Debug.AspNetCompiler.PhysicalPath = "C:\Projects\ListPrototype\"
@@ -18,8 +19,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ListPrototype", ".", "{85BF
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "7874"
-		VWDVirtualPath = "/"
+		SlnRelativePath = "..\ListPrototype\"
 	EndProjectSection
 EndProject
 Global
