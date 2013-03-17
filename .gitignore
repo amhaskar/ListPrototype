@@ -10,6 +10,7 @@
 *~
 *.sass-cache
 *.sln
+*.suo
 
 # OS or Editor folders
 .DS_Store
@@ -38,6 +39,10 @@ dwsync.xml
 intermediate
 publish
 .idea
+Content
+img
+packages
+Scripts
 
 # build script local files
 build/buildinfo.properties
