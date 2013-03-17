@@ -1,8 +1,8 @@
 var app = angular.module('', []).
     config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
-        $locationProvider.html5Mode(true);
+        
         $routeProvider
-        .when('/',
+        .when('/main',
             {
                 templateUrl: 'templates/default.html',
                 controller: BodyController
@@ -12,7 +12,9 @@ var app = angular.module('', []).
                 templateUrl: 'templates/search.html',
                 controller: BodyController
             })
-        .otherwise({ redirectTo: '/' });
+        .otherwise({ redirectTo: '/main' });
+
+        $locationProvider.html5Mode(true);
     }]);
 
 app.run(function ($route) { });
