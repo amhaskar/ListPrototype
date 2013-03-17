@@ -1,4 +1,4 @@
-var app = angular.module('', []).
+angular.module('', []).
     config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
         
         $routeProvider
@@ -16,8 +16,6 @@ var app = angular.module('', []).
 
         $locationProvider.html5Mode(true);
     }]);
-
-app.run(function ($route) { });
 
 var BodyController = function($scope) {
     var self = this;
