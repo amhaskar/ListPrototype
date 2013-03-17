@@ -301,7 +301,7 @@ html {
 #container {
     width:  800px;
     margin: 0 auto;
-    background-color:  #282828;
+    /*background-color:  #282828;*/
 }
 
 header {
